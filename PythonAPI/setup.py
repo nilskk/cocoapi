@@ -21,8 +21,8 @@ setup(name='pycocotools',
       packages=['pycocotools'],
       package_dir = {'pycocotools': 'pycocotools'},
       version='2.0',
-      setup_requires=['Cython'],
-      install_requires=['Cython'],
+      setup_requires=['cython'],
+      install_requires=['cython'],
       ext_modules=
           cythonize(ext_modules)
       )
